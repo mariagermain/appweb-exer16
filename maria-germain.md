@@ -1,51 +1,85 @@
----
-outline: deep
----
+# Markdown Extension Examples
 
-# Runtime API Examples
+This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+## Syntax Highlighting
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+**Input**
 
-const { theme, page, frontmatter } = useData()
-</script>
+````md
+```js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
+````
 
-## Results
+**Output**
 
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
+```js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
 ```
 
-<script setup>
-import { useData } from 'vitepress'
+## Custom Containers
 
-const { site, theme, page, frontmatter } = useData()
-</script>
+**Input**
 
-## Results
+```md
+::: info
+This is an info box.
+:::
 
-### Theme Data
-<pre>{{ theme }}</pre>
+::: tip
+This is a tip.
+:::
 
-### Page Data
-<pre>{{ page }}</pre>
+::: warning
+This is a warning.
+:::
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
+::: danger
+This is a dangerous warning.
+:::
+
+::: details
+This is a details block.
+:::
+```
+
+**Output**
+
+::: info
+This is an info box.
+:::
+
+::: tip
+This is a tip.
+:::
+
+::: warning
+This is a warning.
+:::
+
+::: danger
+This is a dangerous warning.
+:::
+
+::: details
+This is a details block.
+:::
 
 ## More
-## Le code
-### 
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
 
+Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
