@@ -2,50 +2,32 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# Revue de code du TP01 de Théo Hautois
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+Cette page documente son app SongPlayer
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+## Le code
 
-```md
-<script setup>
-import { useData } from 'vitepress'
-
-const { theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
+### Gestion des props:
+Très bonne, l'utilisation d'un type Song permet de bien partager l'information entre les composants
+```ts
+    defineProps({
+        currentMusic:{type:Song, required:false}
+    })
+```
+### Gestion des emit
+Très bonne
+```ts
+  const emit = defineEmits(['music-change','error-api'])
 ```
 
-<script setup>
-import { useData } from 'vitepress'
+### Classe Song
+Très complète, pas seulement un type Song. Classe avec des attibuts. Même chose pour Artist.
 
-const { site, theme, page, frontmatter } = useData()
-</script>
+### Gestion des erreurs
+Très bonne gestion des erreurs. Le style des messages ext vraiment très cool. Tous les cas sont couverts.
 
-## Results
+### Autre
+Pas de non pour le lecteur (index.html)
 
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-## Le code
-### 
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
 

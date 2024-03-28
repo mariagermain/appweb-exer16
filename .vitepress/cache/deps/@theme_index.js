@@ -1,40 +1,40 @@
 import {
   useMediaQuery
-} from "./chunk-PPV3H3YZ.js";
+} from "./chunk-WZSWIX5T.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-YYRMEHZK.js";
+} from "./chunk-Z6B2QTD3.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 
 // node_modules/vitepress/dist/client/theme-default/without-fonts.js
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/icons.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import { default as default3 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
-import { default as default4 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
-import { default as default5 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default6 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default7 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default8 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default9 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
-import { default as default10 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default11 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default12 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default13 } from "C:/Users/theoh/OneDrive/Bureau/CEGEP/Hiver 2024/Développement App Web/appweb/exer16-GIT/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/icons.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import { default as default2 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import { default as default3 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
+import { default as default4 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
+import { default as default5 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default6 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default7 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default8 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default9 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
+import { default as default10 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default11 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default12 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default13 } from "C:/appweb/exer16/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
 // node_modules/vitepress/dist/client/shared.js
 var inBrowser = typeof document !== "undefined";
