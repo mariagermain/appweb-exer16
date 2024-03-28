@@ -21,7 +21,7 @@ Très bonne
   const emit = defineEmits(['music-change','error-api'])
 ```
 
-### Classe Song
+### Classe Song & Artist
 Très complète, pas seulement un type Song. Classe avec des attibuts. Même chose pour Artist.
 
 ### Gestion des erreurs
