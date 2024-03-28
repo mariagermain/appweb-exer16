@@ -7,12 +7,12 @@ hero:
   text: "Revue de code documentée"
   tagline: My great project tagline
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Revue de code de Maria Germain
+      link: /maria-germain.md
+    - theme: alt
+      text: Revue de code de Théo hautois
+      link: /theo-hautois.md
 
 features:
   - title: Feature A
